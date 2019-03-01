@@ -2,10 +2,10 @@
 ## Problema
 Se tiene un sistema de streaming el cual manda una cancion (x) a los servicios de streaming correspondientes, siempre y cuando el o los servicios hayan pagado por la cancion, tendran acceso a ella y poder hacer uso lucrativo
 
-##¿Que patron?
+## ¿Que patron?
 
-#Patron de diseño OBSERVER
-##¿Como?
+# Patron de diseño OBSERVER
+## ¿Como?
 Pues al momento de observar los cambios que se produzcan en los servicios de streaming (Es decir que se notifique a la disquera que se produjo un cambio en uno o varios de estos) va a atender a los cambios producidos en los objetos observables y puede que ejecute algun metodo de envio de cancion a los servicios de streaming.
 
 Yo propongo el siguiente diagrama que resolveria el problema
